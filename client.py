@@ -1,4 +1,5 @@
 import socket
+import json
 from os import system, name
 def clear():
     # for windows
@@ -8,14 +9,16 @@ def clear():
     # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
-SERVER_PORT = 5455
-SERVER_HOST = "127.0.0.1"
+SERVER_HOST = input("Input IP: ")
+SERVER_PORT = int(input("Input Port: "))
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 client.connect((SERVER_HOST,SERVER_PORT))
 if client.recv(1024).decode("utf-8") == "accepted":
     print(f"connected with {SERVER_HOST}")
+
+user = {}
 
 while True:
     is_success = False
@@ -27,10 +30,9 @@ while True:
         while True:
             # clear() # clear screen
             client.sendall("login".encode("utf-8"))
-            username = input("Username: ")
-            client.sendall(username.encode("utf-8"))
-            password = input("Password: ")
-            client.sendall(password.encode("utf-8"))
+            user["name"] = input("Username: ")
+            user["password"] = input("Password: ")
+            client.sendall(json.dumps(user).encode("utf-8"))
             if client.recv(1024).decode("utf-8") == "login_success":
                 print("logged success!")
                 is_success = True
@@ -42,10 +44,9 @@ while True:
         while True:
             clear()
             client.sendall("regis".encode("utf-8"))
-            username = input("Username: ")
-            client.sendall(username.encode("utf-8"))
-            password = input("Password: ")
-            client.sendall(password.encode("utf-8"))
+            user["name"] = input("Username: ")
+            user["password"] = input("Password: ")
+            client.sendall(json.dumps(user).encode("utf-8"))
             if client.recv(1024).decode("utf-8") == "regis_success":
                 print("registered success!")
                 break

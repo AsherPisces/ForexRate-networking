@@ -1,13 +1,16 @@
 import socket
-import threading
+import json
+from threading import Thread
 from logger import is_logged, regis
-PORT = 5455
+PORT = 5450
 HOST = "127.0.0.1"
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
 server.bind((HOST, PORT))
+
+
 server.listen()
 
 print("Waiting for client: ")
@@ -15,14 +18,16 @@ conn, addr = server.accept()
 conn.sendall("accepted".encode("utf-8"))
 print(f"connected by {addr}")
 
+
+
 while True:
     client_select = conn.recv(1024).decode("utf-8")
-    username_client = conn.recv(1024).decode("utf-8")
-    password_client = conn.recv(1024).decode("utf-8")
+    user_json = conn.recv(1024).decode("utf-8")
+    user = json.loads(user_json)
     is_success = False
     if client_select == "login":
         # login
-        if is_logged(username_client, password_client):
+        if is_logged(user["name"], user["password"]):
             print(f"{addr} logged!")
             conn.sendall("login_success".encode("utf-8"))
             is_success = True
@@ -30,7 +35,7 @@ while True:
             conn.sendall("login_fail".encode("utf-8"))
     if client_select == "regis":
         # regis
-        regis(username_client, password_client)
+        regis(user["name"], user["password"])
         conn.sendall("regis_success".encode("utf-8"))
     if is_success == True:
         break
