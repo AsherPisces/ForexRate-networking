@@ -1,6 +1,7 @@
 import socket
 import threading
-PORT = 5446
+from logger import is_logged, regis
+PORT = 5455
 HOST = "127.0.0.1"
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -13,29 +14,6 @@ print("Waiting for client: ")
 conn, addr = server.accept()
 conn.sendall("accepted".encode("utf-8"))
 print(f"connected by {addr}")
-
-def is_logged(username_client, password_client):
-    file_user = open("data_username.txt", "r")
-    file_pass = open("data_password.txt", "r")
-    while True:
-        check_user = file_user.readline().replace("\n","")
-        check_pass = file_pass.readline().replace("\n","")
-        if check_user == username_client and check_pass == password_client:
-            file_user.close()
-            file_pass.close()
-            return True
-        if file_user.readline() == "" or file_pass.readline() == "":
-            file_user.close()
-            file_pass.close()
-            return False
-
-def regis(username_client, password_client):
-    file_user = open("data_username.txt", "w+")
-    file_pass = open("data_password.txt", "w+")
-    file_user.write(username_client + "\n")
-    file_pass.write(password_client + "\n")
-    file_user.close()
-    file_pass.close()
 
 while True:
     client_select = conn.recv(1024).decode("utf-8")
@@ -69,3 +47,6 @@ while True:
     if data_server == "quit":
         conn.close()
         break
+
+
+

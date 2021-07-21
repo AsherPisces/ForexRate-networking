@@ -8,7 +8,7 @@ def clear():
     # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
-SERVER_PORT = 5446
+SERVER_PORT = 5455
 SERVER_HOST = "127.0.0.1"
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
