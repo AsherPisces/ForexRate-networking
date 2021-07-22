@@ -1,10 +1,10 @@
-def is_logged(username_client, password_client):
+def is_logged(user):
     file_user = open("data_username.txt", "r")
     file_pass = open("data_password.txt", "r")
     while True:
         check_user = file_user.readline().replace("\n","")
         check_pass = file_pass.readline().replace("\n","")
-        if check_user == username_client and check_pass == password_client:
+        if check_user == user["name"] and check_pass == user["password"]:
             file_user.close()
             file_pass.close()
             return True
@@ -13,10 +13,19 @@ def is_logged(username_client, password_client):
             file_pass.close()
             return False
 
-def regis(username_client, password_client):
+def regis(user):
     file_user = open("data_username.txt", "a")
     file_pass = open("data_password.txt", "a")
-    file_user.write(username_client + "\n")
-    file_pass.write(password_client + "\n")
+    file_mail = open("data_email.txt", "a")
+    file_first_name = open("data_firstname.txt", "a")
+    file_last_name = open("data_lastname.txt", "a")
+    file_user.write(user["name"] + "\n")
+    file_pass.write(user["password"] + "\n")
+    file_mail.write(user["mail"] + "\n")
+    file_first_name.write(user["first_name"] + "\n")
+    file_last_name.write(user["last_name"] + "\n")
     file_user.close()
     file_pass.close()
+    file_mail.close()
+    file_first_name.close()
+    file_last_name.close()

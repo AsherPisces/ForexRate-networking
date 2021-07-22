@@ -1,4 +1,4 @@
-import socket
+from socket import socket, AF_INET, SOCK_STREAM
 import json
 from os import system, name
 def clear():
@@ -12,13 +12,16 @@ def clear():
 SERVER_HOST = input("Input IP: ")
 SERVER_PORT = int(input("Input Port: "))
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+client = socket(AF_INET, SOCK_STREAM)
 
 client.connect((SERVER_HOST,SERVER_PORT))
 if client.recv(1024).decode("utf-8") == "accepted":
     print(f"connected with {SERVER_HOST}")
 
-user = {}
+user = {
+
+}
+
 
 while True:
     is_success = False
@@ -30,6 +33,7 @@ while True:
         while True:
             # clear() # clear screen
             client.sendall("login".encode("utf-8"))
+            print("LOGIN: ")
             user["name"] = input("Username: ")
             user["password"] = input("Password: ")
             client.sendall(json.dumps(user).encode("utf-8"))
@@ -44,6 +48,10 @@ while True:
         while True:
             clear()
             client.sendall("regis".encode("utf-8"))
+            print("SIGN UP: ")
+            user["first_name"] = input("Fist Name: ")
+            user["last_name"] = input("Last Name: ")
+            user["mail"] = input("Mail Address: ")
             user["name"] = input("Username: ")
             user["password"] = input("Password: ")
             client.sendall(json.dumps(user).encode("utf-8"))
@@ -54,7 +62,7 @@ while True:
         break
 
 while True:
-    data_client = input("Client: ")
+    data_client = input("{} {}: ".format(user["first_name"], user["last_name"]))
     client.sendall(data_client.encode("utf-8"))
     if data_client == "quit":
         client.close()
