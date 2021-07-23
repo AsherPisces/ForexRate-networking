@@ -44,7 +44,7 @@ while True:
     elif check == "2":#select registered
         # regis
         while True:
-            clear()
+            # clear()
             client.sendall("sign_up".encode("utf-8"))
             user["name"] = input("Username: ")
             user["password"] = input("Password: ")
@@ -56,11 +56,31 @@ while True:
                 print("fail success!")
     if is_success == True:
         break
-    
 # perform the work
+print("1. Task A: ")
+print("2. Task B: ")
+print("3. Task C: ")
+print("4. Task D: ")
+print("5. Task E: ")
+print("Quit to Exit!")
+# ...more reqest
 while True:
     user["msg"] = input("> ")
-    client.sendall(json.dumps(user).encode("utf-8"))
+    if user["msg"] == "1":
+        # do something
+        client.sendall(json.dumps(user).encode("utf-8"))
+    if user["msg"] == "2":
+        # do something
+        client.sendall(json.dumps(user).encode("utf-8"))
+    if user["msg"] == "3":
+        # do something
+        client.sendall(json.dumps(user).encode("utf-8"))
+    if user["msg"] == "4":
+        # do something
+        client.sendall(json.dumps(user).encode("utf-8"))
+    if user["msg"] == "5":
+        # do something
+        client.sendall(json.dumps(user).encode("utf-8"))
     data_server = client.recv(1024).decode("utf-8")
     print(data_server)
     # if data_server == "quit":
