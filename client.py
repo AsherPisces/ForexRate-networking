@@ -1,5 +1,6 @@
-from socket import socket, AF_INET, SOCK_STREAM
+import socket
 import json
+from threading import Thread
 from os import system, name
 def clear():
     # for windows
@@ -12,16 +13,14 @@ def clear():
 SERVER_HOST = input("Input IP: ")
 SERVER_PORT = int(input("Input Port: "))
 
-client = socket(AF_INET, SOCK_STREAM)
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 client.connect((SERVER_HOST,SERVER_PORT))
-if client.recv(1024).decode("utf-8") == "accepted":
-    print(f"connected with {SERVER_HOST}")
 
-user = {
+welcome = client.recv(1024).decode("utf-8")
+print(welcome)
 
-}
-
+user = {}
 
 while True:
     is_success = False
@@ -33,7 +32,6 @@ while True:
         while True:
             # clear() # clear screen
             client.sendall("login".encode("utf-8"))
-            print("LOGIN: ")
             user["name"] = input("Username: ")
             user["password"] = input("Password: ")
             client.sendall(json.dumps(user).encode("utf-8"))
@@ -47,33 +45,27 @@ while True:
         # regis
         while True:
             clear()
-            client.sendall("regis".encode("utf-8"))
-            print("SIGN UP: ")
-            user["first_name"] = input("Fist Name: ")
-            user["last_name"] = input("Last Name: ")
-            user["mail"] = input("Mail Address: ")
+            client.sendall("sign_up".encode("utf-8"))
             user["name"] = input("Username: ")
             user["password"] = input("Password: ")
             client.sendall(json.dumps(user).encode("utf-8"))
-            if client.recv(1024).decode("utf-8") == "regis_success":
-                print("registered success!")
+            if client.recv(1024).decode("utf-8") == "sign_up_success":
+                print("signed up success!")
                 break
+            else:
+                print("fail success!")
     if is_success == True:
         break
-
+    
+# perform the work
 while True:
-    data_client = input("{} {}: ".format(user["first_name"], user["last_name"]))
-    client.sendall(data_client.encode("utf-8"))
-    if data_client == "quit":
-        client.close()
-        break
+    user["msg"] = input("> ")
+    client.sendall(json.dumps(user).encode("utf-8"))
     data_server = client.recv(1024).decode("utf-8")
-    print(f"Server: {data_server}")
-    if data_server == "quit":
-        client.close()
-        break
+    print(data_server)
+    # if data_server == "quit":
+    #     client.close()
+    #     break
 
-    
-    
 
 
