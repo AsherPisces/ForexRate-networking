@@ -81,11 +81,14 @@ while True:
     if user["msg"] == "5":
         # do something
         client.sendall(json.dumps(user).encode("utf-8"))
+    if user["msg"] == "quit":
+        client.sendall(json.dumps(user).encode("utf-8"))
     data_server = client.recv(1024).decode("utf-8")
     print(data_server)
-    # if data_server == "quit":
-    #     client.close()
-    #     break
+    if data_server == "quit":
+        break
+
+client.close()
 
 
 

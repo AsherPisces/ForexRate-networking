@@ -2,7 +2,7 @@ import socket
 import json
 from threading import Thread
 from logger import is_logged, is_sign_up
-PORT = 5454
+PORT = 5457
 HOST = "127.0.0.1"
 # ThreadCount = 0 
 
@@ -41,6 +41,7 @@ def handle_client(conn, addr):
         data_client = json.loads(data_client_json)
         print("{}: {}".format(data_client["name"], data_client["msg"]))
         if data_client["msg"] == "quit":
+            clients[user["name"]].sendall("quit".encode("utf-8"))
             clients[user["name"]].close()
             break
         # response
@@ -89,4 +90,4 @@ if __name__ == "__main__":
     
     ACCEPT_THREAD.start()
     ACCEPT_THREAD.join()
-    server.close()
+    # server.close()
