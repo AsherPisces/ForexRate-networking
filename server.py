@@ -84,7 +84,7 @@ def accept_connection():
 if __name__ == "__main__":
     # ...the same as hash table
     clients = {}
-    server.listen(5)
+    server.listen(6)
     print("Waiting for client...")
     ACCEPT_THREAD = Thread(target=accept_connection)
     
