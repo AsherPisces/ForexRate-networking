@@ -11,33 +11,26 @@ def download(url, file_name):
 download("https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx", "data_vietcombank.xml")
 
 my_tree = minidom.parse('data_vietcombank.xml')
-data = my_tree.getElementsByTagName('Exrate')[0]
-print(data.attributes['CurrencyCode'].value)
-
 tag_name = my_tree.getElementsByTagName('Exrate')
-
-# print(CurrencyCode_att[0].value)
-
 setData = [] # save Data here
+data_current = {}
 CurrencyCode = []
 CurrencyName = []
 Buy = []
 Transfer = []
 Sell = []
 for x in tag_name:
-    CurrencyCode.append(x.attributes['CurrencyCode'].value)
-    CurrencyName.append(x.attributes['CurrencyName'].value)
-    Buy.append(x.attributes['Buy'].value)
-    Transfer.append(x.attributes['Transfer'].value)
-    Sell.append(x.attributes['Sell'].value)
-setData.append(CurrencyCode)
-setData.append(CurrencyName)
-setData.append(Buy)
-setData.append(Transfer)
-setData.append(Sell)
+    data_current['CurrencyCode'] = x.attributes['CurrencyCode'].value
+    data_current['CurrencyName'] = x.attributes['CurrencyName'].value
+    data_current['Buy'] = x.attributes['Buy'].value
+    data_current['Transfer'] = x.attributes['Transfer'].value
+    data_current['Sell'] = x.attributes['Sell'].value
+    setData.append(data_current)
+    data_current = {}
 
+for x in setData:
+    print(x)
 
-print(setData)
 
 
 
