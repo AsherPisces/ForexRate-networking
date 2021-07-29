@@ -2,8 +2,9 @@ import socket
 import json
 from threading import Thread
 from logger import is_logged, is_sign_up
-PORT = 5455
-HOST = "127.0.0.1"
+from get_data_web import setData
+PORT = 5454
+HOST = "0.0.0.0"
 # ThreadCount = 0 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -36,43 +37,24 @@ def Handle_client(conn, addr):
         if is_success == True:
             break
     
-    # clients[user["name"]] = conn
+    clients[user["name"]] = conn
     # run
-    # while True:
-    #     data_client_json = clients[user["name"]].recv(1024).decode("utf-8")
-    #     data_client = json.loads(data_client_json)
-    #     print("{}: {}".format(data_client["name"], data_client["msg"]))
-    #     if data_client["msg"] == "quit":
-    #         clients[user["name"]].sendall("quit".encode("utf-8"))
-    #         clients[user["name"]].close()
-    #         break
-    #     # response
-
-    #     if data_client["msg"] == "1":
-    #         print("{}: reqest task A".format(data_client["name"]))
-    #         # do something
-    #         clients[user["name"]].sendall("task A. Done!".encode("utf-8"))
-    #     if data_client["msg"] == "2":
-    #         print("{}: reqest task B".format(data_client["name"]))
-    #         # do something
-    #         clients[user["name"]].sendall("task B. Done!".encode("utf-8"))
-    #     if data_client["msg"] == "3":
-    #         print("{}: reqest task C".format(data_client["name"]))
-    #         # do something
-    #         clients[user["name"]].sendall("task C. Done!".encode("utf-8"))
-    #     if data_client["msg"] == "4":
-    #         print("{}: reqest task D".format(data_client["name"]))
-    #         # do something
-    #         clients[user["name"]].sendall("task D. Done!".encode("utf-8"))
-    #     if data_client["msg"] == "5":
-    #         print("{}: reqest task E".format(data_client["name"]))
-    #         # do something
-    #         clients[user["name"]].sendall("task E. Done!".encode("utf-8"))
-        # data_server = input("Server: z") 
-        # clients[user["name"]].sendall("Accept".encode("utf-8"))
+    while True:
+        data_client_json = clients[user["name"]].recv(1024).decode("utf-8")
+        data_client = json.loads(data_client_json)
+        print("{}: {}".format(data_client["name"], data_client["msg"]))
+        if data_client["msg"] == "quit":
+            clients[user["name"]].sendall("quit".encode("utf-8"))
+            clients[user["name"]].close()
+            break
+        # response
+        if data_client["msg"] == "GET":
+            print("{}: reqest GET".format(data_client["name"]))
+            # do something
+            clients[user["name"]].sendall(json.dumps(setData).encode("utf-8"))
         # if data_server == "quit":
         #     conn.close()
-        #     break
+        break
 def Accept_connection():
     while True:
         conn, addr = server.accept()
