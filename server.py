@@ -3,7 +3,7 @@ import json
 from threading import Thread
 from logger import is_logged, is_sign_up
 from get_data_web import setData
-PORT = 5454
+PORT = 5455
 HOST = "0.0.0.0"
 # ThreadCount = 0 
 

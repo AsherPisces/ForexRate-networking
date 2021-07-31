@@ -1,17 +1,8 @@
 import socket
 import json
 from threading import Thread
-from os import system, name
 from tkinter import *
 from tkinter import messagebox
-def clear():
-    # for windows
-    if name == 'nt':
-        _ = system('cls')
-  
-    # for mac and linux(here, os.name is 'posix')
-    else:
-        _ = system('clear')
 SERVER_HOST = input("Input IP: ")
 SERVER_PORT = int(input("Input Port: "))
 
@@ -32,6 +23,26 @@ window.title("Forex Rate")
 user = {}
 
 
+
+class Table:
+    # array entry
+    def __init__(self,root,data,total_rows,total_columns):
+        for i in range(total_rows):
+            for j in range(total_columns):
+                self.e = Entry(root, width=20, font=('Arial',16))
+                self.e.grid(row=i, column=j)
+                self.e.insert(END, data[i][j])
+
+
+class Table_Current:
+    # array entry
+    def __init__(self,root,data,total_rows,total_columns):
+        for i in total_rows:
+            for j in range(total_columns):
+                self.e = Entry(root, width=20, font=('Arial',16))
+                self.e.grid(row=i, column=j)
+                self.e.insert(END, data[i][j])
+
 def Accept_login(user):
     client.sendall(json.dumps(user).encode("utf-8"))
     if client.recv(1024).decode("utf-8") == "login_success":
@@ -45,7 +56,6 @@ def Accept_signup(user):
         return True
     else:
         return False
-
 
 def Handle_login(user, user_entry, pass_entry):
     client.sendall("login".encode("utf-8"))
@@ -67,26 +77,59 @@ def Handle_signup(user, user_entry, pass_entry):
     else:
         messagebox.showwarning('Forex Rate', 'Account Already Exists!')
 
+def search_main(data, search_entry, root, frame_table_current, frame_table):
+    frame_table_current.place(x = 10, y = 110)
+    search_target = search_entry.get()
+    if search_target == "":
+        frame_table.place(x = 10, y = 110)
+    total_rows = []
+    total_rows.append(0)
+    for i in range(1, len(data), 1):
+        if (data[i][0].find(search_target) != -1):
+            total_rows.append(i)
+            
+    Table_Current(frame_table_current, data, total_rows, len(data[0]))
+
+
 def Start():
-    print("Start")
-    # perform the work
-    # print("1. Task A: ")#tra cuu theo ngay
-    # print("2. Task B: ")
-    # print("3. Task C: ")
-    # print("4. Task D: ")
-    # print("5. Task E: ")
-    # print("Quit to Exit!")
-    # ...more reqest
     user["msg"] = "GET"
     client.sendall(json.dumps(user).encode("utf-8"))
     while True:
         data_server_json = client.recv(40000).decode("utf-8")
         data_server = json.loads(data_server_json)
-        print(data_server)
-        if data_server == "quit":
-            break
+        # ======= GUI - main =======
+        
+        root = Toplevel()
+        root.geometry("1100x800")
+        root.title("Forex Rate")
+        frame_logo_root = Frame(root, bg = "white", bd = 5)
+        frame_logo_root.place(x = 0, y = 0, height = 250, width = 350)
+        logo_root = Label(frame_logo_root, text = "FOREX RATE", font =("Impact", 50, "bold"), fg = "#D2691E")
+        logo_root.place(x = 10, y = 10)
+        name_user = Label(root, text = "Welcome {}!".format(user["name"]), font =("Impact", 25, "bold"), fg = "#488AC7")
+        name_user.place(x = 700, y = 20)
+        
+        frame_table = Frame(root, bg = "white", bd = 5)
+        frame_table.place(x = 10, y = 110)
+        table_data = Table(frame_table,data_server, len(data_server), len(data_server[0]))
+        search_root = Frame(root, bg = "white", bd = 5)
+        search_root.place(x = 700, y = 60, height = 40, width = 300)
+        search_entry = Entry(search_root, width=20)
+        search_entry.grid(row =1, column = 1)
+        frame_table_array = []
+        frame_table_current = Frame(root, bg = "white", bd = 5)
+        search_button = Button(search_root, text = "Search", padx = 5, fg = "#488AC7", bg = "white",
+            command = lambda: (
+            frame_table.place_forget(),
+            frame_table_current.place_forget(),
+            search_main(data_server, search_entry, root, frame_table_current, frame_table),
+        ))
+        search_button.grid(row= 1, column = 2)
+        # search_main(data_server, search_entry, table_data)
+        # if data_server == "quit":
+        #     break
         break
-
+#                  ======= GUI - Login ========
 background_image= PhotoImage(file = "br2.png")
 background_label = Label(window, image=background_image)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -112,7 +155,8 @@ pass_entry = Entry(frame_login,width = 20, show="*")
 pass_entry.place(x = 10, y = 140)
 login_button = Button(frame_login,
     text="Log In",
-    padx = 5, pady = 5,
+    padx = 5,
+    fg = "#488AC7",
     relief=RAISED,\
         cursor="fleur",
     command = lambda: (
@@ -122,7 +166,8 @@ login_button = Button(frame_login,
 login_button.place(x = 10, y = 180)
 signup_button = Button(frame_login,
     text="Sign Up",
-    padx = 5, pady = 5,
+    padx = 5,
+    fg = "#488AC7",
     relief=RAISED,\
         cursor="fleur",
     command = lambda: (
