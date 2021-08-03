@@ -14,15 +14,13 @@ welcome = client.recv(1024).decode("utf-8")
 print(welcome)
 
 window = Tk()
-
+icon = PhotoImage(file='1.png')
+window.iconphoto(True, icon)
 window.geometry("1150x720")
 window.title("Forex Rate")
 
 
-
 user = {}
-
-
 
 class Table:
     # array entry
@@ -45,30 +43,42 @@ class Table_Current:
 
 def Accept_login(user):
     client.sendall(json.dumps(user).encode("utf-8"))
-    if client.recv(1024).decode("utf-8") == "login_success":
+    recv_str = client.recv(1024).decode("utf-8")
+    if recv_str == "login_success":
         return True
-    else:
+    elif recv_str == "login_fail":
         return False
+    messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
+    
 
 def Accept_signup(user):
     client.sendall(json.dumps(user).encode("utf-8"))
-    if client.recv(1024).decode("utf-8") == "sign_up_success":
+    recv_str = client.recv(1024).decode("utf-8")
+    if recv_str == "sign_up_success":
         return True
-    else:
+    elif recv_str == "sign_up_fail":
         return False
+    messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
 
 def Handle_login(user, user_entry, pass_entry):
-    client.sendall("login".encode("utf-8"))
+    recv_str = client.recv(1024).decode("utf-8")
+    if recv_str == "accept":   
+        client.sendall("login".encode("utf-8"))
+    else:
+        messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
     user["name"] = user_entry.get()
     user["password"] = pass_entry.get()
-    print(user["name"])
-    print(user["password"])
     if Accept_login(user):
         Start()
     else:
         messagebox.showerror('Forex Rate', 'Your Account Not Approved Yed!')
 
 def Handle_signup(user, user_entry, pass_entry):
+    recv_str = client.recv(1024).decode("utf-8")
+    if recv_str == "accept":   
+        client.sendall("login".encode("utf-8"))
+    else:
+        messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
     client.sendall("sign_up".encode("utf-8"))
     user["name"] = user_entry.get()
     user["password"] = pass_entry.get()
@@ -76,20 +86,38 @@ def Handle_signup(user, user_entry, pass_entry):
         messagebox.showinfo('Forex Rate', 'Sign Up Successful!')
     else:
         messagebox.showwarning('Forex Rate', 'Account Already Exists!')
-
-def search_main(data, search_entry, root, frame_table_current, frame_table):
-    frame_table_current.place(x = 10, y = 110)
+cnt = 0
+def getOne():
+    global cnt
+    cnt += 1
+def Search_main(data, search_entry, root, frame_table_array, frame_table):
+    frame_table.place_forget()
+    frame_table_array[cnt].place_forget()
+    frame_table_current = Frame(root, bg = "white", bd = 5)
+    frame_table_array.append(frame_table_current)
+    getOne()
+    frame_table_array[cnt].place(x = 10, y = 110)
     search_target = search_entry.get()
     if search_target == "":
         frame_table.place(x = 10, y = 110)
+        return
     total_rows = []
     total_rows.append(0)
+    searched = False
     for i in range(1, len(data), 1):
         if (data[i][0].find(search_target) != -1):
             total_rows.append(i)
-            
-    Table_Current(frame_table_current, data, total_rows, len(data[0]))
+            searched = True
 
+    if (searched == False):
+        messagebox.showwarning('Forex Rate', 'Not Found!')
+            
+    Table_Current(frame_table_array[cnt], data, total_rows, len(data[0]))
+
+def on_closing():
+    user["msg"] = "quit"
+    client.sendall(json.dumps(user).encode("utf-8"))
+    root.destroy()
 
 def Start():
     user["msg"] = "GET"
@@ -98,7 +126,7 @@ def Start():
         data_server_json = client.recv(40000).decode("utf-8")
         data_server = json.loads(data_server_json)
         # ======= GUI - main =======
-        
+        global root
         root = Toplevel()
         root.geometry("1100x800")
         root.title("Forex Rate")
@@ -120,15 +148,14 @@ def Start():
         frame_table_current = Frame(root, bg = "white", bd = 5)
         search_button = Button(search_root, text = "Search", padx = 5, fg = "#488AC7", bg = "white",
             command = lambda: (
-            frame_table.place_forget(),
-            frame_table_current.place_forget(),
-            search_main(data_server, search_entry, root, frame_table_current, frame_table),
+            frame_table_array.append(frame_table_current),
+            Search_main(data_server, search_entry, root, frame_table_array, frame_table),
         ))
         search_button.grid(row= 1, column = 2)
+        root.protocol("WM_DELETE_WINDOW", on_closing)
         # search_main(data_server, search_entry, table_data)
         # if data_server == "quit":
-        #     break
-        break
+        return
 #                  ======= GUI - Login ========
 background_image= PhotoImage(file = "br2.png")
 background_label = Label(window, image=background_image)

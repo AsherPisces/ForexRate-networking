@@ -14,16 +14,17 @@ download("https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.asp
 my_tree = minidom.parse('data_vietcombank.xml')
 tag_name = my_tree.getElementsByTagName('Exrate')
 setData = [] # save Data here
-data_current = {}
+header_table_data = ["Currency Code", "Currency Name", "Cash", "Transfer", "Selling Rates"]
+setData.append(header_table_data)
+data_current = []
 for x in tag_name:
-    data_current['CurrencyCode'] = x.attributes['CurrencyCode'].value
-    data_current['CurrencyName'] = x.attributes['CurrencyName'].value
-    data_current['Buy'] = x.attributes['Buy'].value
-    data_current['Transfer'] = x.attributes['Transfer'].value
-    data_current['Sell'] = x.attributes['Sell'].value
+    data_current.append(x.attributes['CurrencyCode'].value)
+    data_current.append(x.attributes['CurrencyName'].value)
+    data_current.append(x.attributes['Buy'].value)
+    data_current.append(x.attributes['Transfer'].value)
+    data_current.append(x.attributes['Sell'].value)
     setData.append(data_current)
-    data_current = {}
-
+    data_current = []
 
 
 
