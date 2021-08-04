@@ -4,12 +4,11 @@ from threading import Thread
 from logger import is_logged, is_sign_up
 from tkinter import *
 from get_data_web import setData
-PORT = 5454
+PORT = 5455
 HOST = "0.0.0.0"
 # ThreadCount = 0 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
 server.bind((HOST, PORT))
 # ==================GUI-SERVER-MAIN=============
 window = Tk()
@@ -37,7 +36,6 @@ def Handle_client(conn, addr):
     # log
     while True:
         while True:
-            conn.sendall("accept".encode("utf-8"))
             client_select = conn.recv(1024).decode("utf-8")
             user_json = conn.recv(1024).decode("utf-8")
             user = json.loads(user_json)
@@ -75,9 +73,12 @@ def Handle_client(conn, addr):
                 print("{} request {}".format(data_client["name"], data_client["msg"]))
                 status.insert(END, "{} request {}".format(data_client["name"], data_client["msg"]))
                 # do something
+                # sendall setData
                 clients[user["name"]].sendall(json.dumps(setData).encode("utf-8"))
             # if data_server == "quit":
             #     conn.close()
+
+
 def Accept_connection():
     while True:
         conn, addr = server.accept()

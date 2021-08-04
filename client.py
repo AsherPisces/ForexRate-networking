@@ -3,6 +3,8 @@ import json
 from threading import Thread
 from tkinter import *
 from tkinter import messagebox
+import time
+
 SERVER_HOST = input("Input IP: ")
 SERVER_PORT = int(input("Input Port: "))
 
@@ -21,15 +23,19 @@ window.title("Forex Rate")
 
 
 user = {}
+# user : name; pass; msg(thay đổi)
 
 class Table:
     # array entry
     def __init__(self,root,data,total_rows,total_columns):
-        for i in range(total_rows):
+        for i in range(total_rows - 1):
             for j in range(total_columns):
                 self.e = Entry(root, width=20, font=('Arial',16))
                 self.e.grid(row=i, column=j)
                 self.e.insert(END, data[i][j])
+        self.t = Entry(root, width=20, font=('Arial',16))
+        self.t.insert(END,data[total_rows - 1])
+        self.t.grid(row=total_rows,column = 4)
 
 
 class Table_Current:
@@ -48,8 +54,9 @@ def Accept_login(user):
         return True
     elif recv_str == "login_fail":
         return False
-    messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
-    
+    if recv_str == "": 
+        messagebox.showwarning('Forex Rate', 'Server Disconnected!') 
+        return False
 
 def Accept_signup(user):
     client.sendall(json.dumps(user).encode("utf-8"))
@@ -57,15 +64,13 @@ def Accept_signup(user):
     if recv_str == "sign_up_success":
         return True
     elif recv_str == "sign_up_fail":
+        return False  
+    if recv_str == "":
+        messagebox.showwarning('Forex Rate', 'Server Disconnected!') 
         return False
-    messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
 
 def Handle_login(user, user_entry, pass_entry):
-    recv_str = client.recv(1024).decode("utf-8")
-    if recv_str == "accept":   
-        client.sendall("login".encode("utf-8"))
-    else:
-        messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
+    client.sendall("login".encode("utf-8"))
     user["name"] = user_entry.get()
     user["password"] = pass_entry.get()
     if Accept_login(user):
@@ -74,11 +79,6 @@ def Handle_login(user, user_entry, pass_entry):
         messagebox.showerror('Forex Rate', 'Your Account Not Approved Yed!')
 
 def Handle_signup(user, user_entry, pass_entry):
-    recv_str = client.recv(1024).decode("utf-8")
-    if recv_str == "accept":   
-        client.sendall("login".encode("utf-8"))
-    else:
-        messagebox.showwarning('Forex Rate', 'Server Disconnected!')  
     client.sendall("sign_up".encode("utf-8"))
     user["name"] = user_entry.get()
     user["password"] = pass_entry.get()
@@ -122,40 +122,40 @@ def on_closing():
 def Start():
     user["msg"] = "GET"
     client.sendall(json.dumps(user).encode("utf-8"))
-    while True:
-        data_server_json = client.recv(40000).decode("utf-8")
-        data_server = json.loads(data_server_json)
-        # ======= GUI - main =======
-        global root
-        root = Toplevel()
-        root.geometry("1100x800")
-        root.title("Forex Rate")
-        frame_logo_root = Frame(root, bg = "white", bd = 5)
-        frame_logo_root.place(x = 0, y = 0, height = 250, width = 350)
-        logo_root = Label(frame_logo_root, text = "FOREX RATE", font =("Impact", 50, "bold"), fg = "#D2691E")
-        logo_root.place(x = 10, y = 10)
-        name_user = Label(root, text = "Welcome {}!".format(user["name"]), font =("Impact", 25, "bold"), fg = "#488AC7")
-        name_user.place(x = 700, y = 20)
+    data_server_json = client.recv(40000).decode("utf-8")
+    # data_main
+    data_server = json.loads(data_server_json)
+    # ======= GUI - main =======
+    global root
+    root = Toplevel()
+    root.geometry("1100x800")
+    root.title("Forex Rate")
+    frame_logo_root = Frame(root, bg = "white", bd = 5)
+    frame_logo_root.place(x = 0, y = 0, height = 250, width = 350)
+    logo_root = Label(frame_logo_root, text = "FOREX RATE", font =("Impact", 50, "bold"), fg = "#D2691E")
+    logo_root.place(x = 10, y = 10)
+    name_user = Label(root, text = "Welcome {}!".format(user["name"]), font =("Impact", 25, "bold"), fg = "#488AC7")
+    name_user.place(x = 700, y = 20)
         
-        frame_table = Frame(root, bg = "white", bd = 5)
-        frame_table.place(x = 10, y = 110)
-        table_data = Table(frame_table,data_server, len(data_server), len(data_server[0]))
-        search_root = Frame(root, bg = "white", bd = 5)
-        search_root.place(x = 700, y = 60, height = 40, width = 300)
-        search_entry = Entry(search_root, width=20)
-        search_entry.grid(row =1, column = 1)
-        frame_table_array = []
-        frame_table_current = Frame(root, bg = "white", bd = 5)
-        search_button = Button(search_root, text = "Search", padx = 5, fg = "#488AC7", bg = "white",
-            command = lambda: (
-            frame_table_array.append(frame_table_current),
-            Search_main(data_server, search_entry, root, frame_table_array, frame_table),
-        ))
-        search_button.grid(row= 1, column = 2)
-        root.protocol("WM_DELETE_WINDOW", on_closing)
-        # search_main(data_server, search_entry, table_data)
-        # if data_server == "quit":
-        return
+    frame_table = Frame(root, bg = "white", bd = 5)
+    frame_table.place(x = 10, y = 110)
+    table_data = Table(frame_table,data_server, len(data_server), len(data_server[0]))
+    search_root = Frame(root, bg = "white", bd = 5)
+    search_root.place(x = 700, y = 60, height = 40, width = 300)
+    search_entry = Entry(search_root, width=20)
+    search_entry.grid(row =1, column = 1)
+    frame_table_array = []
+    frame_table_current = Frame(root, bg = "white", bd = 5)
+    search_button = Button(search_root, text = "Search", padx = 5, fg = "#488AC7", bg = "white",
+        command = lambda: (
+        frame_table_array.append(frame_table_current),
+        Search_main(data_server, search_entry, root, frame_table_array, frame_table),
+    ))
+    search_button.grid(row= 1, column = 2)
+    root.protocol("WM_DELETE_WINDOW", on_closing)
+    # search_main(data_server, search_entry, table_data)
+    # if data_server == "`quit":
+
 #                  ======= GUI - Login ========
 background_image= PhotoImage(file = "br2.png")
 background_label = Label(window, image=background_image)
@@ -180,6 +180,8 @@ pass_label = Label(frame_login, text = "Password :")
 pass_label.place(x = 10, y = 120)
 pass_entry = Entry(frame_login,width = 20, show="*")
 pass_entry.place(x = 10, y = 140)
+
+
 login_button = Button(frame_login,
     text="Log In",
     padx = 5,
@@ -202,6 +204,9 @@ signup_button = Button(frame_login,
     )
 )
 signup_button.place(x = 70, y = 180)
+
+
+
 
 window.mainloop()
 
