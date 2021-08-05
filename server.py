@@ -3,7 +3,43 @@ import json
 from threading import Thread
 from logger import is_logged, is_sign_up
 from tkinter import *
-from get_data_web import setData
+import time
+from requests import get
+from xml.dom import minidom
+
+def Download(url, file_name):
+    with open(file_name, "wb") as file:
+        # get request
+        response = get(url)
+        # write to file
+        file.write(response.content)
+
+def Download_connection():
+    while True:
+        global setData # save Data here
+        setData = []
+        Download("https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx", "data_vietcombank.xml")
+        my_tree = minidom.parse('data_vietcombank.xml')
+        tag_name = my_tree.getElementsByTagName('Exrate')
+        header_table_data = ["Currency Code", "Currency Name", "Cash", "Transfer", "Selling Rates"]
+        setData.append(header_table_data)
+        date = my_tree.getElementsByTagName('DateTime')[0]
+        day = date.childNodes[0]
+        data_current = []
+        for x in tag_name:
+            data_current.append(x.attributes['CurrencyCode'].value)
+            data_current.append(x.attributes['CurrencyName'].value)
+            data_current.append(x.attributes['Buy'].value)
+            data_current.append(x.attributes['Transfer'].value)
+            data_current.append(x.attributes['Sell'].value)
+            setData.append(data_current)
+            data_current = []
+
+        setData.append(day.nodeValue)
+        # 
+        time.sleep(5)
+        del setData
+
 PORT = 5455
 HOST = "0.0.0.0"
 # ThreadCount = 0 
@@ -14,7 +50,7 @@ server.bind((HOST, PORT))
 window = Tk()
 window.geometry("350x400")
 window.title("Forex Rate")
-icon = PhotoImage(file='1855847.png')
+icon = PhotoImage(file='logo_server.png')
 window.iconphoto(True, icon)
 # ====logo=====
 frame_logo_root = Frame(window, bg = "white", bd = 5)
@@ -31,7 +67,6 @@ status.insert(END, "Waiting for client...")
 # ====scroll-bar-command====
 scroll_bar.config(command = status.yview)
 
-
 def Handle_client(conn, addr):
     # log
     while True:
@@ -43,8 +78,8 @@ def Handle_client(conn, addr):
             if client_select == "login":
                 # login
                 if is_logged(user):
-                    print("{} logged!".format(user["name"]))
-                    status.insert(END,"{} logged!".format(user["name"]))
+                    print("{} logged in!".format(user["name"]))
+                    status.insert(END,"{} logged in!".format(user["name"]))
                     conn.sendall("login_success".encode("utf-8"))
                     is_success = True
                 else:
@@ -66,7 +101,7 @@ def Handle_client(conn, addr):
             data_client_json = clients[user["name"]].recv(1024).decode("utf-8")
             data_client = json.loads(data_client_json)
             if data_client["msg"] == "quit":
-                status.insert(END, "{} logged out".format(data_client["name"]))
+                status.insert(END, "{} logged out!".format(data_client["name"]))
                 break
             # response
             if data_client["msg"] == "GET": 
@@ -78,26 +113,27 @@ def Handle_client(conn, addr):
             # if data_server == "quit":
             #     conn.close()
 
-
 def Accept_connection():
     while True:
         conn, addr = server.accept()
         print(f"connected by {addr}")
         status.insert(END,f"connected by {addr}")
-        # clients.append(conn)
-        # start_new_thread(handle_client, (conn,addr))
-        # ThreadCount += 1
         conn.sendall(f"Server: Welcome {addr}".encode("utf-8"))
         Thread(target=Handle_client, args=(conn, addr)).start()
 
+def on_closing():
+    window.destroy()
+    # exit()
+    server.close()
 
 if __name__ == "__main__":
     # ...the same as hash table
     clients = {}
     server.listen(6)
     ACCEPT_THREAD = Thread(target=Accept_connection)
+    DOWNLOAD_THREAD = Thread(target=Download_connection)
     ACCEPT_THREAD.start()
-    # window.protocol("WM_DELETE_WINDOW", on_closing)
+    DOWNLOAD_THREAD.start()
+    window.protocol("WM_DELETE_WINDOW", on_closing)
     window.mainloop()
     ACCEPT_THREAD.join()
-    server.close()
