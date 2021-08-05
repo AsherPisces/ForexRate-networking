@@ -37,10 +37,10 @@ def Download_connection():
 
         setData.append(day.nodeValue)
         # 
-        time.sleep(5)
+        time.sleep(30*60)
         del setData
 
-PORT = 5455
+PORT = 5454
 HOST = "0.0.0.0"
 # ThreadCount = 0 
 
@@ -67,6 +67,14 @@ status.insert(END, "Waiting for client...")
 # ====scroll-bar-command====
 scroll_bar.config(command = status.yview)
 
+def Accept_connection():
+    while True:
+        conn, addr = server.accept()
+        # print(f"connected by {addr}")
+        status.insert(END,f"connected by {addr}")
+        conn.sendall(f"Server: Welcome {addr}".encode("utf-8"))
+        Thread(target=Handle_client, args=(conn, addr)).start()
+
 def Handle_client(conn, addr):
     # log
     while True:
@@ -78,7 +86,7 @@ def Handle_client(conn, addr):
             if client_select == "login":
                 # login
                 if is_logged(user):
-                    print("{} logged in!".format(user["name"]))
+                    # print("{} logged in!".format(user["name"]))
                     status.insert(END,"{} logged in!".format(user["name"]))
                     conn.sendall("login_success".encode("utf-8"))
                     is_success = True
@@ -87,7 +95,7 @@ def Handle_client(conn, addr):
             elif client_select == "sign_up":
                 # regis
                 if is_sign_up(user):
-                    print("{} signed up!".format(user["name"]))
+                    # print("{} signed up!".format(user["name"]))
                     status.insert(END,"{} signed up!".format(user["name"]))
                     conn.sendall("sign_up_success".encode("utf-8"))
                 else:
@@ -105,7 +113,7 @@ def Handle_client(conn, addr):
                 break
             # response
             if data_client["msg"] == "GET": 
-                print("{} request {}".format(data_client["name"], data_client["msg"]))
+                # print("{} request {}".format(data_client["name"], data_client["msg"]))
                 status.insert(END, "{} request {}".format(data_client["name"], data_client["msg"]))
                 # do something
                 # sendall setData
@@ -113,18 +121,13 @@ def Handle_client(conn, addr):
             # if data_server == "quit":
             #     conn.close()
 
-def Accept_connection():
-    while True:
-        conn, addr = server.accept()
-        print(f"connected by {addr}")
-        status.insert(END,f"connected by {addr}")
-        conn.sendall(f"Server: Welcome {addr}".encode("utf-8"))
-        Thread(target=Handle_client, args=(conn, addr)).start()
+
 
 def on_closing():
     window.destroy()
-    # exit()
     server.close()
+    # exit()
+
 
 if __name__ == "__main__":
     # ...the same as hash table

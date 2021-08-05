@@ -112,11 +112,6 @@ def Accept_signup(user):
         messagebox.showwarning('Forex Rate', 'Server Disconnected!') 
         return False
 
-def Enter_login(event):
-    Handle_login(user, user_entry, pass_entry)
-
-window.bind('<Return>', Enter_login)
-
 def Handle_login(user, user_entry, pass_entry):
     client.sendall("login".encode("utf-8"))
     user["name"] = user_entry.get()
@@ -125,6 +120,9 @@ def Handle_login(user, user_entry, pass_entry):
         Start()
     else:
         messagebox.showerror('Forex Rate', 'Your Account Not Approved Yed!')
+
+def Enter_login(event):
+    Handle_login(user, user_entry, pass_entry)
 
 def Handle_signup(user, user_entry, pass_entry):
     client.sendall("sign_up".encode("utf-8"))
@@ -139,6 +137,9 @@ def getOne():
     global cnt
     cnt += 1
 
+def One():
+    global cnt
+    cnt += 1
 
 def on_closing():
     user["msg"] = "quit"
@@ -206,12 +207,13 @@ def Search_main(data_server, search_entry, root, frame_table_array, frame_table)
 
     if (searched == False):
         messagebox.showwarning('Forex Rate', 'Not Found!')
-            
     Table_Current(frame_table_array[cnt], data_server, total_rows, len(data_server[0]))
 
 def Enter_search(event):
     frame_table_array.append(frame_table_current),
     Search_main(data_server, search_entry, root, frame_table_array, frame_table)
+
+window.bind('<Return>', Enter_login)
 
 window.mainloop()
 
