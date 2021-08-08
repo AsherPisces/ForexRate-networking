@@ -15,8 +15,9 @@ def Download(url, file_name):
         file.write(response.content)
 
 def Download_connection():
+    global setData
     while True:
-        global setData # save Data here
+         # save Data here
         setData = []
         Download("https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx", "data_vietcombank.xml")
         my_tree = minidom.parse('data_vietcombank.xml')
@@ -37,10 +38,10 @@ def Download_connection():
 
         setData.append(day.nodeValue)
         # 
-        time.sleep(30*60)
-        del setData
+        status.insert(END, "Update {}".format(setData[len(setData)-1]))
+        time.sleep(5)
 
-PORT = 5454
+PORT = 5455
 HOST = "0.0.0.0"
 # ThreadCount = 0 
 
@@ -120,7 +121,6 @@ def Handle_client(conn, addr):
                 clients[user["name"]].sendall(json.dumps(setData).encode("utf-8"))
             # if data_server == "quit":
             #     conn.close()
-
 
 
 def on_closing():
