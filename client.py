@@ -144,6 +144,17 @@ def getOne():
     global cnt
     cnt += 1
 
+def Compare_day(day1, day2):
+    try:
+        a = dt.strptime(day1, "%Y-%m-%d")
+        b = dt.strptime(day2, "%Y-%m-%d")
+        if a > b:
+            return True
+        elif a < b:
+            return False
+    except:
+        return -1
+
 def One():
     global cnt
     cnt += 1
@@ -203,7 +214,17 @@ def Start(flag, day_cur):
     if day_cur == True:
         user["msg"] = date.today().strftime('%Y-%m-%d')
     else:
-        user["msg"] = date_["search"]
+        # if current day > input day
+        handle_date = Compare_day(date.today().strftime('%Y-%m-%d'), date_["search"])
+        if handle_date == True:
+            user["msg"] = date_["search"]
+        # if current day < input day
+        if handle_date == False:
+            messagebox.showwarning('Forex Rate', 'Date Fail!')
+            return
+        if handle_date == -1:
+            messagebox.showwarning('Forex Rate', '{} ??? :D ???'.format(date_["search"]))
+            return
     client.sendall(json.dumps(user).encode("utf-8"))
     data_server_json = client.recv(40000).decode("utf-8")
     # data_main
@@ -224,9 +245,6 @@ def Start(flag, day_cur):
         )
         refresh_button.place(x = 20, y = 790)
     else:
-        if data_server == "Date Fail":
-            messagebox.showwarning('Forex Rate', 'Date Fail!')
-            return
         root1 = Toplevel()
         root1.geometry("420x750")
         root1.title("Forex Rate")

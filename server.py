@@ -7,6 +7,8 @@ from tkinter import *
 import time
 from requests import get
 from xml.dom import minidom
+import requests
+import os
 
 def append_data(new_data, file_name, dat_time):
     with open(file_name, "r+") as file:
@@ -156,23 +158,25 @@ def Handle_client(conn, addr):
             else: 
                 status.insert(END, "{} request {}".format(data_client["name"], data_client["msg"]))
                 # add code 11-8-2021
-                with open("past.json", "r+") as file:
-                    data = json.load(file)
-                    if data.get(data_client["msg"]) != None:
-                    # filter data convert to array 2D 
-                        cur_data = []
-                        filter_data = []
-                        header_data = ['Currency Code', 'Transfer']
-                        filter_data.append(header_data)
-                        for x in data[data_client["msg"]]:
-                            cur_data.append(x['currency']) 
-                            cur_data.append(str(x['buy_transfer'])) 
-                            filter_data.append(cur_data) 
-                            cur_data = [] 
-                        filter_data.append(day.nodeValue)
-                        clients[user['name']].sendall(json.dumps(filter_data).encode("utf-8"))
-                    else: 
-                        clients[user['name']].sendall(json.dumps("Date Fail").encode("utf-8"))
+                while True:
+                    with open("past.json", "r+") as file:
+                        data = json.load(file)
+                        if data.get(data_client["msg"]) != None:
+                        # filter data convert to array 2D 
+                            cur_data = []
+                            filter_data = []
+                            header_data = ['Currency Code', 'Transfer']
+                            filter_data.append(header_data)
+                            for x in data[data_client["msg"]]:
+                                cur_data.append(x['currency']) 
+                                cur_data.append(str(x['buy_transfer'])) 
+                                filter_data.append(cur_data) 
+                                cur_data = [] 
+                            filter_data.append(day.nodeValue)
+                            clients[user['name']].sendall(json.dumps(filter_data).encode("utf-8"))
+                            break
+                        else:
+                            get_historical_data("past.json", data_client["msg"])
             # if data_server == "quit":
             #     conn.close()
 
