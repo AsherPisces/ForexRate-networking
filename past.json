@@ -1,0 +1,5824 @@
+{
+    "2021-08-01": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16900.439637
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18448.782881
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25396.136824
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3561.699712
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3672.62628
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27292.302882
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31955.03074
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2961.538874
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.476504
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.789377
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.981897
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76497.840192
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5454.288653
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2607.355133
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.796709
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6136.349637
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2677.465719
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16983.043943
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27317.684724
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22999.349804
+        }
+    ],
+    "2021-08-02": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16926.35566
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18372.271637
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25379.66506
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3557.032189
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3668.831111
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27289.273754
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31893.459792
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.676519
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.211993
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 210.238805
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.971433
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76277.374136
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5439.384781
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2604.18553
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 315.020836
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6126.749184
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2675.143242
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16982.436464
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27294.103955
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22984.605371
+        }
+    ],
+    "2021-08-03": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17006.821466
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18345.180297
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25428.546424
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3552.968412
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3668.553666
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27285.493765
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31966.776775
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.027875
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.772117
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 210.881579
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.014932
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76508.929964
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5444.721145
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2608.716682
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 315.074652
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6130.634793
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2672.120802
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17003.727145
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27288.822595
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22979.422547
+        }
+    ],
+    "2021-08-04": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16948.274226
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18306.664261
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25347.456712
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3553.089739
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3657.99162
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27176.700569
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31901.995431
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2954.747684
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.659055
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.867498
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.055526
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76427.593306
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5441.660875
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2597.325787
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.801004
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6125.752296
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2668.751496
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16991.861344
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27201.268306
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22971.211579
+        }
+    ],
+    "2021-08-05": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16991.034266
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18361.909254
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25309.212579
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3553.521958
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3653.107242
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27149.625071
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31967.606967
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2952.563144
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.084145
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.151525
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.090808
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76346.185193
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5444.504993
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2605.484011
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.851794
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6122.033539
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2665.037071
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16991.96941
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27168.629809
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22962.186808
+        }
+    ],
+    "2021-08-06": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16918.046444
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18335.271294
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25154.310713
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3548.957447
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3639.557323
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27059.859921
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31900.118762
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2957.415942
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.960356
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.762695
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.081741
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76440.508918
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5453.858182
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2589.098481
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.951309
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6135.975714
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2653.59999
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16979.065456
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27068.654375
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23006.588162
+        }
+    ],
+    "2021-08-07": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16921.032974
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18325.028755
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25154.070403
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3549.015721
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3638.831175
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27052.362272
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31915.269285
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2957.787466
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.096745
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.794465
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.078132
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76308.310147
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5453.702454
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2589.153778
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.955072
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6136.298756
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2654.178669
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16988.094386
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27068.999475
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23004.926206
+        }
+    ],
+    "2021-07-01": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17213.733687
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18528.71175
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24893.027051
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3562.947655
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3672.00098
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27304.613726
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31717.132984
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2967.778601
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.135962
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 206.634676
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.312912
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76509.657995
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5541.972992
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2671.574004
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.582484
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6145.605931
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2687.357766
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17085.779728
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27304.613726
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23049.064878
+        }
+    ],
+    "2021-07-02": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17264.018329
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18600.974076
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24891.397733
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3542.043794
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3658.749946
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27203.310754
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31696.181021
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2952.413831
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 307.82785
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 206.453035
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.276138
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76105.949961
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5506.819985
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2668.891658
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.236352
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6113.034854
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2685.61043
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17022.528172
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27203.310754
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22927.648267
+        }
+    ],
+    "2021-07-03": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17265.519387
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18616.00141
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24896.725367
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3542.088739
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3658.533612
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27203.65594
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31692.152051
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2952.489107
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 307.828019
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 206.492899
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.276395
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76106.915678
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5506.889861
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2667.435145
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.240327
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6113.765009
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2683.953206
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17020.220019
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27203.65594
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22927.939199
+        }
+    ],
+    "2021-07-04": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17251.708024
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18608.104773
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24892.544375
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3544.035908
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3658.515726
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27205.011962
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31730.290853
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2953.762798
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 307.909113
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 206.390554
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.287693
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76152.680282
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5509.960652
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2663.976934
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.231397
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6116.791651
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2683.885219
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17026.490693
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27205.011962
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22940.721776
+        }
+    ],
+    "2021-07-05": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17370.315382
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18665.510564
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24970.265049
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3561.76353
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3673.143196
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27314.473532
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31900.673918
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2963.822283
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.784152
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.546023
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.356728
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76440.043243
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5539.588088
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2686.7326
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.520012
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6139.256607
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2691.303069
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17120.617929
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27314.473532
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23022.522751
+        }
+    ],
+    "2021-07-06": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17271.815841
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18496.541701
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24927.194473
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3557.393604
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3664.063063
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27244.925015
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31808.451784
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2967.429743
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.261506
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.321115
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.272549
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76539.073143
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5546.640261
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2646.329456
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 309.462345
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6145.005157
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2679.995201
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17103.783757
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27244.925015
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23049.071956
+        }
+    ],
+    "2021-07-07": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17269.408466
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18476.108041
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24921.088434
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3562.443509
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3658.582291
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27205.828901
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31831.224071
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2968.599913
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.193447
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.486933
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.195557
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76566.688528
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5547.464068
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2641.259784
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 308.492996
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6148.585089
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2673.331751
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17096.165373
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27205.828901
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23059.695627
+        }
+    ],
+    "2021-07-08": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17086.82385
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18332.366909
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25136.678993
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3543.669737
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3663.28003
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27242.428866
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31705.409068
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2960.748353
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 307.792618
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.501608
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.051932
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76382.069383
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5500.12535
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2617.524326
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 307.669709
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6131.272908
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2674.940785
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16999.19184
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27242.428866
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22998.765629
+        }
+    ],
+    "2021-07-09": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17205.64946
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18451.956366
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25124.801329
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3544.089119
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3666.987813
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27273.449214
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31933.430922
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.192664
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.250738
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.526533
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.048544
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76295.13058
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5479.488914
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2649.145073
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 308.559542
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6121.822832
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2680.091162
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16995.52465
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27273.449214
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22961.797659
+        }
+    ],
+    "2021-07-10": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17189.014769
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18453.489284
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25126.904798
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3544.38438
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3667.278661
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27273.998813
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31925.290104
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.345804
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.276427
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.561932
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.050215
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76301.57732
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5479.946139
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2650.65803
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 308.585258
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6122.109722
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2655.409086
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16996.936895
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27273.998813
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22963.710376
+        }
+    ],
+    "2021-07-11": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17200.223836
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18444.337752
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25118.596819
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3544.875905
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3667.462742
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27274.60134
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31921.885145
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.847964
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.295907
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.415187
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.054986
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76338.928357
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5480.747744
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2645.671322
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 308.927581
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6123.000896
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2676.612263
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16998.541214
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27274.60134
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22967.079623
+        }
+    ],
+    "2021-07-12": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17185.644093
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18450.542369
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25115.989268
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3549.155416
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3665.928786
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27264.938426
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31912.331222
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2959.27484
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.323477
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.321012
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.118231
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76432.537729
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5484.527006
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2642.706567
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 308.90761
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6127.468815
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2676.473234
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17002.999261
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27264.938426
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22982.902019
+        }
+    ],
+    "2021-07-13": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17233.885982
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18480.128388
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25195.794699
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3578.015979
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3665.56493
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27260.388508
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31969.495142
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2980.255543
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.015724
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.261063
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.117403
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76959.788683
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5521.916695
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2635.63346
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 311.159205
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6169.825887
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2675.777055
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17070.090639
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27260.388508
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23145.117229
+        }
+    ],
+    "2021-07-14": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17161.292697
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18328.985219
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25082.929652
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3545.750509
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3650.266846
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27149.662724
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31789.312949
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2953.551826
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.022817
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.550437
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.037485
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76264.597124
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5460.818937
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2625.586071
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 309.323166
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6116.586682
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2660.741948
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16949.682681
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27149.662724
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22938.169016
+        }
+    ],
+    "2021-07-15": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17106.128374
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18279.450506
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25083.95422
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3562.963895
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3656.688875
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27196.349257
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31838.497743
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2963.529233
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.787298
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.612455
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.1643
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76555.522187
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5480.288716
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2610.084461
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 309.399252
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6138.135909
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2657.426173
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17000.820935
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27196.349257
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23019.954087
+        }
+    ],
+    "2021-07-16": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17019.52092
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18233.96452
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25011.204239
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3550.448337
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3651.467758
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27160.091874
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31665.083271
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2961.426447
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.233254
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.977774
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.134848
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76483.81729
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5464.602708
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2597.920205
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 310.550146
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6132.92041
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2649.265707
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16951.082234
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27160.091874
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23004.062858
+        }
+    ],
+    "2021-07-17": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17021.297782
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18235.837022
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25035.695929
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3550.811812
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3651.812792
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27159.999764
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31668.335703
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2961.806196
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.268964
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.063756
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.136911
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76491.74324
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5465.162559
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2601.050453
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 310.581963
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6133.51316
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2650.44519
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16951.384455
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27159.999764
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23006.420591
+        }
+    ],
+    "2021-07-18": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17001.232545
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18222.988923
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25020.678609
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3549.631714
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3652.167491
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27160.472064
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31651.024462
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2960.684092
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.309269
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.097708
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.129768
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76467.661059
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5465.877911
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2599.591238
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 310.431496
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6131.452827
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2650.041044
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16955.690023
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27160.472064
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22998.774773
+        }
+    ],
+    "2021-07-19": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16867.924883
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18024.485243
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25026.326462
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3541.427119
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3644.613949
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27109.943324
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31420.561589
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2957.94164
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 306.502255
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.944544
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.953137
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76443.55776
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5441.030094
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2567.437843
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 307.705498
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6128.792936
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2645.828115
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16845.463412
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27109.943324
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22985.631469
+        }
+    ],
+    "2021-07-20": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16882.535734
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18157.693616
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24994.713946
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3550.143761
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3646.874363
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27127.21295
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31378.606163
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2961.897756
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.91714
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.548576
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.03975
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76569.98123
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5449.801021
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2558.047905
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 309.534528
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6138.427028
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2647.57558
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16853.660006
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27127.21295
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23022.682983
+        }
+    ],
+    "2021-07-21": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16910.8252
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18289.598111
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25048.520725
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3553.325862
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3643.801108
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27103.977287
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31521.054122
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.324618
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.742661
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.409521
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.993312
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76412.083424
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5430.102653
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2588.457316
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 310.688625
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6127.244715
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2645.964007
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16854.218898
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27103.977287
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22982.911437
+        }
+    ],
+    "2021-07-22": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17012.565541
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18344.146942
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25075.912411
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3561.668369
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3647.960253
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27132.86443
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31732.414438
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2965.709873
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.486105
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.216805
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.026331
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76666.001045
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5447.568906
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2603.487732
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 312.766149
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6144.154878
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2655.034456
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16955.730051
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27132.86443
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23046.491094
+        }
+    ],
+    "2021-07-23": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16937.173385
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18302.027359
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24994.972992
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3547.214515
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3639.251628
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27063.756917
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31605.609412
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2959.067317
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.814112
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.96572
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.955315
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76396.043869
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5439.706216
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2592.950942
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 311.24242
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6129.748008
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2645.812255
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16901.358676
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27063.756917
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22990.916125
+        }
+    ],
+    "2021-07-24": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16921.070955
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18298.115748
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24970.959485
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3547.459169
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3639.502362
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27048.175211
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31584.265371
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2958.932355
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.85334
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.973713
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.956567
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76405.373857
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5439.319615
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2593.933576
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 311.263193
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6127.836471
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2645.541095
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16889.066428
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27064.999176
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22986.445238
+        }
+    ],
+    "2021-07-25": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16926.766862
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18280.293554
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24984.340864
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3546.259366
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3638.792737
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27056.265791
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31608.772657
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2958.184834
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.800558
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.926654
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.94853
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76369.775316
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5438.230482
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2595.523894
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 312.085096
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6127.483058
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2643.768022
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16886.400611
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27063.462758
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22990.724827
+        }
+    ],
+    "2021-07-26": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16959.873745
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18327.028232
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25092.478451
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3546.217047
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3647.820947
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27125.335737
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31761.842635
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2955.519799
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.472452
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.286227
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.935308
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76360.029921
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5439.172593
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2607.095299
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 311.93641
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6129.206112
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2663.577269
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16916.400663
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27130.489551
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22984.324305
+        }
+    ],
+    "2021-07-27": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16894.076865
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18213.028598
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25091.645085
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3525.669582
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3646.605809
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27123.486134
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31840.247348
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2948.948633
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 307.950219
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.096051
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.883726
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76359.178765
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5425.235342
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2583.662275
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 311.385693
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6118.779148
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2662.112103
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16863.043585
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27126.903693
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22932.134684
+        }
+    ],
+    "2021-07-28": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16896.290447
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18300.382282
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25162.620663
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3531.112006
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3649.475718
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27122.566987
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31833.869801
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2945.515889
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 307.838246
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.530953
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.919789
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76096.487179
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5412.355467
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2603.542899
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 311.999391
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6110.547544
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2666.079061
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16884.111157
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27147.573994
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22914.682233
+        }
+    ],
+    "2021-07-29": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16969.266777
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18432.553229
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25298.775189
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3552.341218
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3666.319943
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27260.126187
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32040.149677
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2951.425391
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.906418
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.539717
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.056352
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76021.147742
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5416.176967
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2627.158567
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.478165
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6113.779786
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2681.127415
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16957.965933
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27271.902562
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22918.316283
+        }
+    ],
+    "2021-07-30": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16914.014598
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18442.229161
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25426.547173
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3562.97857
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3672.838517
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27313.864464
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32010.661008
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2961.754078
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.5281
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.837942
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.986044
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76413.902984
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5452.476182
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2610.955384
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.728923
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6137.751065
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2678.446394
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16995.576243
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27321.867426
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23012.694378
+        }
+    ],
+    "2021-07-31": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16908.223654
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18441.878756
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25393.208114
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3562.85515
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3673.0331
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27314.167278
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32001.274314
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2962.07595
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.52624
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.838806
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.986043
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76321.995081
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5452.191194
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2610.940265
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.733988
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6137.594279
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2678.360111
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16998.770511
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27320.831935
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22998.088266
+        }
+    ],
+    "2021-06-01": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17875.535392
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 19097.792047
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25701.186123
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3613.790229
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3787.812738
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 28173.845837
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32634.9449
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2972.032826
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 316.547635
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 210.667854
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.803087
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76680.21838
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5588.785756
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2770.851186
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.533673
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6148.306465
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2787.461464
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17434.914723
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 28173.845837
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23062.12568
+        }
+    ],
+    "2021-06-02": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17795.217337
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 19077.290095
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25574.477889
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3599.186318
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3770.963199
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 28045.86756
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32544.266213
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2959.9401
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.764821
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.573744
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.67253
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76360.374861
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5567.700822
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2766.58167
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.968112
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6124.688547
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2777.21893
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17365.711728
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 28045.86756
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22966.767031
+        }
+    ],
+    "2021-06-03": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17737.957632
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 19121.849163
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25620.145829
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3615.065944
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3776.387793
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 28083.036068
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32662.744849
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2983.018081
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 316.935082
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.890929
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.733612
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76906.533796
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5614.882322
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2763.712488
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 316.056085
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6172.81487
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2778.733437
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17432.019722
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 28083.036068
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23150.154786
+        }
+    ],
+    "2021-06-04": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17756.869079
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18982.794283
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25515.578285
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3586.73098
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3752.809
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27909.092622
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32481.628978
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2957.129512
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.605807
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.468554
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.652089
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76294.166141
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5556.653552
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2761.468419
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.804637
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6116.353575
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2772.603701
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17318.328564
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27909.092622
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22937.861624
+        }
+    ],
+    "2021-06-05": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17756.862332
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18982.798393
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25512.59852
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3586.731224
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3752.808796
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27907.466143
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32481.626188
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2957.129506
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.605807
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.468554
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.652089
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76294.308281
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5556.652768
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2761.468422
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.804638
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6116.353679
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2772.603804
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17318.32946
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27907.466143
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22937.863357
+        }
+    ],
+    "2021-06-06": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17755.430908
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18995.392995
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25512.966104
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3587.553974
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3752.528028
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27906.796688
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32482.434877
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2957.743366
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.251608
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.363746
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.65376
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76309.167415
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5557.928224
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2758.217926
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.894361
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6118.003703
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2771.452716
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17328.387783
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27906.796688
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22943.121238
+        }
+    ],
+    "2021-06-07": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17790.908626
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18978.477517
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25555.891943
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3585.497508
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3760.426576
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27966.988124
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32525.691462
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.138747
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 315.038788
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.944098
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.650241
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76307.248534
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5556.652593
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2776.132391
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.92998
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6116.128444
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2777.417977
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17337.503455
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27966.988124
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22937.861902
+        }
+    ],
+    "2021-06-08": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17767.276419
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18954.278634
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25604.682191
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3587.876871
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3758.769962
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27953.220456
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32491.654798
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2959.428575
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.684
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.730644
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.553914
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76339.252579
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5571.808037
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2776.659561
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 317.736805
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6122.606781
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2775.700894
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17342.600964
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27953.220456
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22964.201707
+        }
+    ],
+    "2021-06-09": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17758.353273
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18973.021969
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25651.763198
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3597.658047
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3763.154077
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27984.714106
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32429.426434
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2961.173691
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.857422
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.605918
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.571356
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76429.643878
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5581.065805
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2776.696832
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 317.7396
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6127.188487
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2780.151878
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17344.98692
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27984.714106
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22980.031028
+        }
+    ],
+    "2021-06-10": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17787.807096
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18968.684201
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25641.331857
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3588.620315
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3755.627023
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27928.333528
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32518.441639
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2956.416927
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.231927
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.74415
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.621181
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76277.536599
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5568.043847
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2772.793817
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 319.607135
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6117.660949
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2780.497952
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17332.569692
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27928.333528
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22943.13454
+        }
+    ],
+    "2021-06-11": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17747.594018
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18941.375665
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25650.250049
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3598.379149
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3748.962717
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27880.795793
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32482.455306
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2966.639221
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.411884
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.927427
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.621511
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76589.280535
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5604.904472
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2761.579736
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 320.017626
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6139.390529
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2765.037142
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17368.247286
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27880.795793
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23024.949143
+        }
+    ],
+    "2021-06-12": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17678.262127
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18867.380205
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25531.583686
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3584.321895
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3734.317201
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27771.878028
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32355.560922
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2955.049892
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 313.183618
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.107335
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.540952
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76290.080565
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5583.008624
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2750.791483
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 318.767461
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6115.406684
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2754.235382
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17300.397333
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27771.878028
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22935.000993
+        }
+    ],
+    "2021-06-13": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17744.546241
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18935.26935
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25631.723615
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3597.976752
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3749.057345
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27879.343827
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32494.051545
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2966.103157
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 314.368287
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.812155
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.61933
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76572.460805
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5604.277971
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2764.482723
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 319.258849
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6138.80856
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2767.310173
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17362.010695
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27879.343827
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23022.381144
+        }
+    ],
+    "2021-06-14": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17692.226187
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18891.424737
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25505.037431
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3585.19213
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3739.390142
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27807.402665
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32366.857089
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2955.459024
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 313.48716
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.452091
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.531127
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76234.791822
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5574.864668
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2758.656668
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 318.049623
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6117.265955
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2756.647717
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17290.150139
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27807.402665
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22940.56236
+        }
+    ],
+    "2021-06-15": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17626.526551
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18819.509345
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25525.847431
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3579.86295
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3739.390906
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27808.930277
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32290.683387
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2954.021429
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 312.622574
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.37779
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.5084
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76209.102904
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5570.221599
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2756.831677
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 317.335526
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6115.218194
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2755.230262
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17278.93807
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27808.930277
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22932.60908
+        }
+    ],
+    "2021-06-16": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17652.127809
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18893.106287
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25507.473505
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3622.299433
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3738.889486
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27804.625554
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32430.362779
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2985.101086
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 313.912894
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.350645
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.454879
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 77012.37686
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5628.8131
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2735.007281
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 319.474817
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6179.28629
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2739.9367
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17352.978601
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27804.625554
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23174.383692
+        }
+    ],
+    "2021-06-17": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17382.113185
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18632.187762
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25069.577505
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3566.929032
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3684.340737
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27400.346265
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32048.238147
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2962.315207
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.754153
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.575966
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.274268
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76355.98792
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5555.879225
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2693.000564
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 318.021362
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6134.025021
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2690.089352
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17142.948653
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27400.346265
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23001.339992
+        }
+    ],
+    "2021-06-18": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17273.859519
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18533.634107
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25025.280376
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3579.609468
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3685.080677
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27404.183529
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31903.985444
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2975.794794
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 311.549781
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.624626
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.347569
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76661.491955
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5579.608043
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2663.358858
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 317.303642
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6159.835357
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2683.155258
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17177.79534
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27404.183529
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23099.577299
+        }
+    ],
+    "2021-06-19": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17273.868016
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18533.63469
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25025.269812
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3579.609497
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3685.080849
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27406.148957
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31903.970754
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2975.794946
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 311.549783
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.624626
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.347569
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76661.414273
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5579.60833
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2663.359104
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 317.303643
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6159.835456
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2683.155129
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17177.789061
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27406.148957
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23099.578955
+        }
+    ],
+    "2021-06-20": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17317.661857
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18548.725104
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25030.997894
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3577.55533
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3685.817468
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27408.542198
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31897.547911
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2973.57384
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 311.385111
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 209.53848
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.335916
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76619.885883
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5576.675884
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2662.74137
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 317.52339
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6156.350924
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2682.734126
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17167.614056
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27408.542198
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23086.321152
+        }
+    ],
+    "2021-06-21": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17329.727809
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18576.250007
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25022.252736
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3553.113595
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3681.249316
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27375.095161
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32007.098432
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2959.223412
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.941644
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.266213
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.30634
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76248.649564
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5540.115388
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2678.082595
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.195634
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6127.281643
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2691.775179
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17111.605511
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27375.095161
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22977.635315
+        }
+    ],
+    "2021-06-22": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17323.461745
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18630.572644
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24975.718429
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3539.106783
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3682.961707
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27387.873315
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31997.9079
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2953.375776
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.551957
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.304307
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.232804
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76118.022153
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5530.564104
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2685.757322
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 314.59948
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6115.349338
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2704.738461
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17063.170604
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27387.873315
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22938.013405
+        }
+    ],
+    "2021-06-23": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17459.328291
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18732.161364
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25100.951913
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3559.828647
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3697.912977
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27498.494436
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32187.769659
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2967.918438
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.401025
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.695239
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.287085
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76474.56438
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5539.317192
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2699.779336
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 317.20227
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6144.578551
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2717.340272
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17132.004296
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27498.494436
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23046.334415
+        }
+    ],
+    "2021-06-24": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17463.903449
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18690.910893
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25086.790156
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3558.06989
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3694.872966
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27477.059522
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32057.648717
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2966.204271
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.388891
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.708358
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.341527
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76414.740396
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5535.535681
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2708.29618
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 318.448811
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6140.813902
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2716.991988
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17149.110574
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27477.059522
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23027.829547
+        }
+    ],
+    "2021-06-25": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17483.295206
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18738.018296
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25130.7804
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3569.243709
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3698.712011
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27508.478926
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31991.625344
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2969.046697
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.630312
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.985531
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.441
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76475.746385
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5544.694894
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2713.839267
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 319.116926
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6145.052005
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2713.264031
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17162.250523
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27508.478926
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23043.75198
+        }
+    ],
+    "2021-06-26": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17483.289451
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18748.783571
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25130.771959
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3569.243789
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3698.711917
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27505.252947
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31996.246041
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2969.046846
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.630311
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.985532
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.441
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76475.707465
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5544.695102
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2713.839343
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 319.116925
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6145.052044
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2713.26404
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17162.25085
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27505.252947
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23043.752102
+        }
+    ],
+    "2021-06-27": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17476.428685
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18735.455116
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25126.790459
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3568.378487
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3698.859878
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27506.046248
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 32000.742543
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2968.256804
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.40649
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.944852
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.43616
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76474.936326
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5543.435818
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2712.219932
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 318.975859
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6144.619758
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2713.152538
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17162.188995
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27506.046248
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23038.529751
+        }
+    ],
+    "2021-06-28": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17438.226359
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18681.707859
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25061.731972
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3570.521763
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3696.602862
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27489.236392
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31992.947613
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2969.423528
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.31717
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.425623
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.393374
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76565.930674
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5559.972184
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2704.031045
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 319.157713
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6145.885416
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2707.196536
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17161.733946
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27489.236392
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23051.635246
+        }
+    ],
+    "2021-06-29": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17300.583387
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18574.11736
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25007.761819
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3563.239144
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3685.878972
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27408.43193
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31885.693463
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2966.75378
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.052555
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.39751
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.350694
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76497.471141
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5548.147647
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2691.588734
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 316.594044
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6141.635868
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2700.946167
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17121.33476
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27408.43193
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23033.128029
+        }
+    ],
+    "2021-06-30": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 17302.640558
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18617.866151
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24939.415028
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3573.633406
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3679.657078
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27362.60341
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31910.709141
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2971.925407
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 310.266662
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.683321
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.404628
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76699.229184
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5558.391155
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2680.721423
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 315.800867
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6152.870664
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2698.002131
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 17155.893366
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27362.60341
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23075.673934
+        }
+    ],
+    "2021-08-08": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16904.310675
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18310.195288
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 25115.181085
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3551.818114
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3639.540425
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27064.358458
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31885.775001
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2960.01342
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 309.989136
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.872657
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.096185
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76287.148447
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5458.477332
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2586.199957
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 313.766479
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6141.064216
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2655.253674
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16990.173214
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 27070.799775
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 23022.147872
+        }
+    ],
+    "2021-08-09": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16819.800973
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18249.365623
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24904.4877
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3538.672078
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3622.287748
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 26926.572392
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31763.847351
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2948.873903
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 308.242992
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 208.111159
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 20.00295
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 76222.719234
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5428.034713
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2564.645286
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 311.61983
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6119.505681
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2636.287342
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16906.785749
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 26941.301227
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22942.122246
+        }
+    ],
+    "2021-08-10": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16823.157307
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 18271.943903
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24787.617605
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3529.748005
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3608.496035
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 26822.323684
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 31649.737168
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2941.902524
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 307.599909
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 207.099805
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.84934
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 75915.681054
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5414.007732
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2565.208979
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 309.979126
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6104.266708
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2626.116882
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16831.587191
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 26838.470723
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22896.163499
+        }
+    ]
+}
