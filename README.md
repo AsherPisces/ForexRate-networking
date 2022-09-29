@@ -2,7 +2,7 @@
 
 - Made with Python that using Tkinter Framework
 - Support better for MacOS Environment
-- This is a Project of **Computer Networking** Subject
+- This is the Project of **Computer Networking** Subject
 - The application helps us see the detailed price statistics
 - Apply client & server model
 
