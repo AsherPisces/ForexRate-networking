@@ -5820,5 +5820,87 @@
             "currency": "USD",
             "buy_transfer": 22896.163499
         }
+    ],
+    "2021-12-2": [
+        {
+            "currency": "AUD",
+            "buy_transfer": 16113.020547
+        },
+        {
+            "currency": "CAD",
+            "buy_transfer": 17733.796852
+        },
+        {
+            "currency": "CHF",
+            "buy_transfer": 24684.402942
+        },
+        {
+            "currency": "CNY",
+            "buy_transfer": 3564.843896
+        },
+        {
+            "currency": "DKK",
+            "buy_transfer": 3454.393208
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 25670.938552
+        },
+        {
+            "currency": "GBP",
+            "buy_transfer": 30234.135348
+        },
+        {
+            "currency": "HKD",
+            "buy_transfer": 2917.555438
+        },
+        {
+            "currency": "INR",
+            "buy_transfer": 303.276107
+        },
+        {
+            "currency": "JPY",
+            "buy_transfer": 200.840333
+        },
+        {
+            "currency": "KRW",
+            "buy_transfer": 19.308275
+        },
+        {
+            "currency": "KWD",
+            "buy_transfer": 75081.169592
+        },
+        {
+            "currency": "MYR",
+            "buy_transfer": 5374.491927
+        },
+        {
+            "currency": "NOK",
+            "buy_transfer": 2498.710402
+        },
+        {
+            "currency": "RUB",
+            "buy_transfer": 309.034285
+        },
+        {
+            "currency": "SAR",
+            "buy_transfer": 6058.911869
+        },
+        {
+            "currency": "SEK",
+            "buy_transfer": 2512.354446
+        },
+        {
+            "currency": "SGD",
+            "buy_transfer": 16606.730584
+        },
+        {
+            "currency": "EUR",
+            "buy_transfer": 25693.451965
+        },
+        {
+            "currency": "USD",
+            "buy_transfer": 22734.831883
+        }
     ]
 }

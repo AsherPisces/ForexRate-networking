@@ -2,8 +2,8 @@ def is_logged(user):
     file_user = open("data_username.txt", "r")
     file_pass = open("data_password.txt", "r")
     while True:
-        check_user = file_user.readline().replace("\n","")
-        check_pass = file_pass.readline().replace("\n","")
+        check_user = file_user.readline().replace("\n", "")
+        check_pass = file_pass.readline().replace("\n", "")
         if check_user == user["name"] and check_pass == user["password"]:
             file_user.close()
             file_pass.close()
@@ -13,12 +13,13 @@ def is_logged(user):
             file_pass.close()
             return False
 
+
 def is_sign_up(user):
     file_user = open("data_username.txt", "r")
     file_pass = open("data_password.txt", "r")
     while True:
-        check_user = file_user.readline().replace("\n","")
-        check_pass = file_pass.readline().replace("\n","")
+        check_user = file_user.readline().replace("\n", "")
+        check_pass = file_pass.readline().replace("\n", "")
         if check_user == user["name"] and check_pass == user["password"]:
             file_user.close()
             file_pass.close()
