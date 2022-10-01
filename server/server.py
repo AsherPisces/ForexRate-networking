@@ -205,7 +205,6 @@ def on_closing():
 
 
 if __name__ == "__main__":
-    # ...the same as hash table
     clients = {}
     server.listen(6)
     ACCEPT_THREAD = Thread(target=Accept_connection)
