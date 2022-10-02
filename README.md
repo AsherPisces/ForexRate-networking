@@ -5,6 +5,7 @@
 - This is the Project of **Computer Networking** Subject
 - The application helps us see the detailed price statistics
 - Apply client & server model
+- Scores: 9.4/10 :)
 
 # Requirements
 
