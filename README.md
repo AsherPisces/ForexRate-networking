@@ -1,7 +1,7 @@
 # Forex Rate Application
 
 - Made with Python that using Tkinter Framework
-- Support better for MacOS Environment
+- Better support for MacOS Environment
 - This is the Project of **Computer Networking** Subject
 - The application helps us see the detailed price statistics
 - Apply client & server model
